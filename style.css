@@ -1,0 +1,77 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+#self {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid;
+    border-color: #198753;
+    border-radius: 50%;
+}
+
+#hero-section {
+    background-image:
+        linear-gradient(rgba(0,0,0, .3), rgba(0,0,0,.5)),
+        url("img/frogsnflowers\ light.jpg");
+    background-size: cover, cover;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    padding: 25vh 0;
+    background-attachment: fixed;
+    height: 400px;
+    margin: 0px;
+    color: white;
+    position: relate;
+    align-items: center;
+    justify-items: center;
+    text-shadow: 2px 2px black;
+}
+
+#footer-section {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #198753;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#mission-section img {
+    float: left;
+    margin: 10px;
+    width: 100%;
+}
+
+#skills-section {
+    background-color: palevioletred;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+#skills-section img {
+    max-width: 20vh;
+    height: auto;
+}
+
+i {
+    font-size: 5vh;
+}
+
+i:hover{
+    color: #198753;
+}
+
+container {
+    margin-bottom: 20px;
+}
+
+#photos {
+    margin: 0 auto 20px;
+    max-width: 75vh;
+}
+
+#photos p, h5 {
+    background-color: black;
+}
