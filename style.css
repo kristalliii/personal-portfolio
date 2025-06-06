@@ -75,3 +75,12 @@ container {
 #photos p, h5 {
     background-color: black;
 }
+
+a:link{
+   color: black;
+
+}
+
+a:hover{
+    color: #198753;
+}
